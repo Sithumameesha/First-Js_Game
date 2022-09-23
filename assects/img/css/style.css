@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /*background: #90CAF9;*/
+}
+#game{
+    width: 700px;
+    height: 200px;
+    /*border: 2px solid black;*/
+    position: relative;
+top: 200px;
+    /*background: #90CAF9;*/
+    left: 150px;
+}
+#cha {
+    width: 50px;
+    height: 80px;
+    /*background-color: red;*/
+    position: relative;
+    top: 116px;
+    background: url("/assects/img/pngwing.com (47).png");
+    background-size: cover;
+}
+.animate{
+    animation: jump 500ms ;
+}
+@keyframes jump {
+     0%{top: 120px}
+    30%{top: 30px}
+    70%{ top: 30px}
+    100%{ top: 120px}
+}
+
+#block{
+    width: 50px;
+    height: 50px;
+    /*background-color: blue;*/
+    position: relative;
+    left: 480px;
+    animation: block 2s infinite linear;
+    animation-delay: 2s;
+    top: 76px;
+    background: url("/assects/img/pngwing.com (48).png");
+    background-size: cover;
+
+}
+@keyframes block {
+    0%{left: 680px}
+    100%{left: -50px}
+
+}
