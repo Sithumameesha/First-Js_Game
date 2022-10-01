@@ -19,6 +19,6 @@ var dead = setInterval(function (){
     chatop>=100){
         block.style.animation = "none";
         block.style.display ="none";
-alert("You Lose");
+        Swal.fire('You Lose Try Again')
     }
 },10);
